@@ -15,6 +15,7 @@ def servo_iter():
 
 if __name__ == "__main__":
 	# find arduinos
+	# note: currently this is Mac only
 	arduinos = glob.glob('/dev/tty.usbmodem*')
 
 	# select first arduino
